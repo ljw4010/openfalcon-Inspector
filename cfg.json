@@ -6,9 +6,9 @@
 	
 	"mailServer":"smtp.qq.com",
 	"mailServerPort":465,
-	"user":"devops_dh@qq.com",
-	"passwd":"azozpyocfinldbbe",
-	"from":"devops_dh@qq.com",
-	"tos":"836046111@qq.com,ljw4010@sina.cn"
+	"user":"",
+	"passwd":"",
+	"from":"",
+	"tos":""
 	
 }

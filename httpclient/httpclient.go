@@ -48,7 +48,7 @@ func Client(method string, url string, data []byte) []byte {
 
 func getsig() *models.Sigure {
 	var login_url = fmt.Sprintf("http://%s/api/v1/user/login", g.Config().ApiAddr)
-	resp, err := http.PostForm(login_url, url.Values{"name": {"admin"}, "password": {"Ebupt@2017cf"}})
+	resp, err := http.PostForm(login_url, url.Values{"name": {""}, "password": {""}})
 	if err != nil {
 		log.Fatal("get sigure failed,err:%v", err.Error())
 	}
